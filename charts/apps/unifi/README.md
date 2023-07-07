@@ -1,6 +1,6 @@
 # unifi
 
-![Version: 5.1.2](https://img.shields.io/badge/Version-5.1.2-informational?style=flat-square) ![AppVersion: v7.1.68](https://img.shields.io/badge/AppVersion-v7.1.68-informational?style=flat-square)
+![Version: 5.1.5](https://img.shields.io/badge/Version-5.1.5-informational?style=flat-square) ![AppVersion: v7.1.68](https://img.shields.io/badge/AppVersion-v7.1.68-informational?style=flat-square)
 
 Ubiquiti Network's Unifi Controller
 
@@ -17,14 +17,14 @@ Ubiquiti Network's Unifi Controller
 | Repository | Name | Version |
 |------------|------|---------|
 | https://charts.bitnami.com/bitnami | mongodb | 12.1.22 |
-| https://library-charts.k8s-at-home.com | common | 4.5.2 |
+| https://bjw-s.github.io/helm-charts/ | common | 1.5.0 |
 
 ## TL;DR
 
 ```console
-helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm repo add snixon https://snixon.github.io/helm-charts
 helm repo update
-helm install unifi k8s-at-home/unifi
+helm install unifi snixon/unifi
 ```
 
 ## Installing the Chart
@@ -146,7 +146,7 @@ service:
 
 ## Changelog
 
-### Version 5.1.2
+### Version 5.1.5
 
 #### Added
 
@@ -154,7 +154,7 @@ N/A
 
 #### Changed
 
-* Upgraded `common` chart dependency to version 4.5.2
+* Upgraded `common` chart dependency to version 1.5.0
 
 #### Fixed
 
