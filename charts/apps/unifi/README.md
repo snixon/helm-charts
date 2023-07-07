@@ -1,6 +1,6 @@
 # unifi
 
-![Version: 5.1.5](https://img.shields.io/badge/Version-5.1.5-informational?style=flat-square) ![AppVersion: v7.1.68](https://img.shields.io/badge/AppVersion-v7.1.68-informational?style=flat-square)
+![Version: 5.1.5](https://img.shields.io/badge/Version-5.1.5-informational?style=flat-square) ![AppVersion: v7.4.156](https://img.shields.io/badge/AppVersion-v7.1.68-informational?style=flat-square)
 
 Ubiquiti Network's Unifi Controller
 
