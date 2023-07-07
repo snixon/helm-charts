@@ -32,7 +32,7 @@ helm install unifi snixon/unifi
 To install the chart with the release name `unifi`
 
 ```console
-helm install unifi k8s-at-home/unifi
+helm install unifi snixon/unifi
 ```
 
 ## Uninstalling the Chart
