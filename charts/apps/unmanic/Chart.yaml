@@ -2,7 +2,7 @@
 apiVersion: v2
 appVersion: 0.2.4
 description: Unmanic is a simple tool for optimising your file library.
-name: umanic
+name: unmanic
 version: 0.0.1
 keywords:
   - transcoding
