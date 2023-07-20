@@ -34,6 +34,38 @@ entries:
     urls:
     - https://github.com/snixon/helm-charts/releases/download/tdarr-4.6.3/tdarr-4.6.3.tgz
     version: 4.6.3
+  umanic:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 1.5.0
+    apiVersion: v2
+    appVersion: 0.2.4
+    created: "2023-07-20T05:55:55.848927457Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts/
+      version: 1.5.0
+    description: Unmanic is a simple tool for optimising your file library.
+    digest: cec7563d1ebd8f175e3c35a3a64ef1a0a77acc15a0e06227b10e2c9a138cc040
+    home: https://github.com/snixon/helm-charts/tree/master/charts/apps/unmanic
+    icon: https://github.com/Unmanic/unmanic-frontend/blob/master/public/icons/favicon-128x128.png
+    keywords:
+    - transcoding
+    - remux
+    - media
+    - video
+    maintainers:
+    - email: snixon@gmail.com
+      name: snixon
+    name: umanic
+    sources:
+    - https://github.com/Unmanic/unmanic
+    - https://hub.docker.com/r/josh5/unmanic
+    - https://docs.unmanic.app/
+    urls:
+    - https://github.com/snixon/helm-charts/releases/download/umanic-0.0.1/umanic-0.0.1.tgz
+    version: 0.0.1
   unifi:
   - annotations:
       artifacthub.io/changes: |-
@@ -167,4 +199,4 @@ entries:
     urls:
     - https://github.com/snixon/helm-charts/releases/download/unifi-5.1.3/unifi-5.1.3.tgz
     version: 5.1.3
-generated: "2023-07-19T05:04:14.042019044Z"
+generated: "2023-07-20T05:55:55.848947656Z"
