@@ -1,0 +1,28 @@
+---
+apiVersion: v2
+appVersion: 0.2.4
+description: Unmanic is a simple tool for optimising your file library.
+name: umanic
+version: 0.0.1
+keywords:
+  - transcoding
+  - remux
+  - media
+  - video
+home: https://github.com/snixon/helm-charts/tree/master/charts/apps/unmanic
+icon: https://github.com/Unmanic/unmanic-frontend/blob/master/public/icons/favicon-128x128.png
+sources:
+  - https://github.com/Unmanic/unmanic
+  - https://hub.docker.com/r/josh5/unmanic
+  - https://docs.unmanic.app/
+maintainers:
+  - name: snixon
+    email: snixon@gmail.com
+dependencies:
+  - name: common
+    version: 1.5.0
+    repository: https://bjw-s.github.io/helm-charts/
+annotations:
+  artifacthub.io/changes: |-
+    - kind: changed
+      description: Upgraded `common` chart dependency to version 1.5.0
