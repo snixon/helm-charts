@@ -1,5 +1,35 @@
 apiVersion: v1
 entries:
+  deluge:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 1.5.0
+    apiVersion: v2
+    appVersion: 2.1.1
+    created: "2023-08-02T05:19:24.585512711Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts/
+      version: 1.5.0
+    description: Deluge is a torrent download client
+    digest: e616868fc78d3c0a226977a5b12bc9452cbc0f50c47e6c6fb387b4d49f39a891
+    home: https://github.com/snixon/helm-charts/tree/master/charts/apps/deluge
+    icon: https://avatars2.githubusercontent.com/u/6733935?v=3&s=200
+    keywords:
+    - deluge
+    - torrent
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: mark@markmcw.uk
+      name: mcmarkj
+    name: deluge
+    sources:
+    - https://hub.docker.com/r/linuxserver/deluge/
+    - https://deluge-torrent.org/
+    urls:
+    - https://github.com/snixon/helm-charts/releases/download/deluge-2.1.1/deluge-2.1.1.tgz
+    version: 2.1.1
   tdarr:
   - annotations:
       artifacthub.io/changes: |-
@@ -199,4 +229,4 @@ entries:
     urls:
     - https://github.com/snixon/helm-charts/releases/download/unmanic-0.0.1/unmanic-0.0.1.tgz
     version: 0.0.1
-generated: "2023-07-20T06:12:31.797036189Z"
+generated: "2023-08-02T05:19:24.585531711Z"
