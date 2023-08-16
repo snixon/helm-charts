@@ -1,0 +1,30 @@
+---
+apiVersion: v2
+appVersion: latest
+description: ErsatzTV is beta software for configuring and streaming custom live channels using your media library.
+name: ersatztv
+version: 0.8.1-beta
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - ersatztv
+  - plex
+  - jellyfin
+  - emby
+  - media
+home: https://github.com/snixon/helm-charts/tree/master/charts/apps/ersatztv
+icon: https://github.com/ErsatzTV/ErsatzTV/blob/main/artwork/ersatztv-logo.svg
+sources:
+  - https://ersatztv.org/
+  - https://github.com/ErsatzTV/ErsatzTV
+  - https://hub.docker.com/r/jasongdove/ersatztv
+maintainers:
+  - name: snixon
+    email: snixon@gmail.com
+dependencies:
+  - name: common
+    repository: https://bjw-s.github.io/helm-charts/
+    version: 1.5.1
+annotations:
+  artifacthub.io/changes: |-
+    - kind: changed
+      description: Upgraded `common` chart dependency to version 1.5.1
