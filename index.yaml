@@ -37,6 +37,40 @@ entries:
           description: Upgraded `common` chart dependency to version 1.5.1
     apiVersion: v2
     appVersion: latest
+    created: "2023-08-16T05:57:28.351563262Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts/
+      version: 1.5.1
+    description: ErsatzTV is beta software for configuring and streaming custom live
+      channels using your media library.
+    digest: cdbfaaf94802a9de18483f9432a2adc22e0b3212745516d4f59d8c363f34188c
+    home: https://github.com/snixon/helm-charts/tree/master/charts/apps/ersatztv
+    icon: https://github.com/ErsatzTV/ErsatzTV/blob/main/artwork/ersatztv-logo.svg
+    keywords:
+    - ersatztv
+    - plex
+    - jellyfin
+    - emby
+    - media
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: snixon@gmail.com
+      name: snixon
+    name: ersatztv
+    sources:
+    - https://ersatztv.org/
+    - https://github.com/ErsatzTV/ErsatzTV
+    - https://hub.docker.com/r/jasongdove/ersatztv
+    urls:
+    - https://github.com/snixon/helm-charts/releases/download/ersatztv-0.8.1/ersatztv-0.8.1.tgz
+    version: 0.8.1
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 1.5.1
+    apiVersion: v2
+    appVersion: latest
     created: "2023-08-16T03:11:37.013074326Z"
     dependencies:
     - name: common
@@ -264,4 +298,4 @@ entries:
     urls:
     - https://github.com/snixon/helm-charts/releases/download/unmanic-0.0.1/unmanic-0.0.1.tgz
     version: 0.0.1
-generated: "2023-08-16T03:11:37.013124027Z"
+generated: "2023-08-16T05:57:28.351586163Z"
