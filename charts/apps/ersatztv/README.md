@@ -1,6 +1,6 @@
 # ersatztv
 
-![Version: 0.8.1-beta](https://img.shields.io/badge/Version-0.8.1--beta-informational?style=flat-square) ![AppVersion: latest](https://img.shields.io/badge/AppVersion-latest-informational?style=flat-square)
+![Version: 0.8.1](https://img.shields.io/badge/Version-0.8.1-informational?style=flat-square) ![AppVersion: latest](https://img.shields.io/badge/AppVersion-latest-informational?style=flat-square)
 
 ErsatzTV is beta software for configuring and streaming custom live channels using your media library.
 

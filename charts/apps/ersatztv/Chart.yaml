@@ -3,7 +3,7 @@ apiVersion: v2
 appVersion: latest
 description: ErsatzTV is beta software for configuring and streaming custom live channels using your media library.
 name: ersatztv
-version: 0.8.1-beta
+version: 0.8.1
 kubeVersion: ">=1.16.0-0"
 keywords:
   - ersatztv
