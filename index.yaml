@@ -139,6 +139,39 @@ entries:
         - kind: changed
           description: Upgraded `common` chart dependency to version 1.5.0
     apiVersion: v2
+    appVersion: v8.1
+    created: "2024-05-17T19:41:34.483619717Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts/
+      version: 1.5.0
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.1.22
+    description: Ubiquiti Network's Unifi Controller
+    digest: 38f98479a9265a6dd35fc32ba828d7d936c4565c9a3892bb725a0911463ecf96
+    home: https://github.com/snixon/helm-charts/tree/master/charts/apps/unifi
+    icon: https://prd-www-cdn.ubnt.com/static/favicon-152.png
+    keywords:
+    - ubiquiti
+    - unifi
+    maintainers:
+    - email: jeff@billimek.com
+      name: billimek
+    - email: mike@quadra-tec.net
+      name: mcronce
+    name: unifi
+    sources:
+    - https://github.com/jacobalberty/unifi-docker
+    urls:
+    - https://github.com/snixon/helm-charts/releases/download/unifi-5.1.8/unifi-5.1.8.tgz
+    version: 5.1.8
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 1.5.0
+    apiVersion: v2
     appVersion: v8.0.24
     created: "2023-12-28T03:24:50.685967221Z"
     dependencies:
@@ -331,4 +364,4 @@ entries:
     urls:
     - https://github.com/snixon/helm-charts/releases/download/unmanic-0.0.1/unmanic-0.0.1.tgz
     version: 0.0.1
-generated: "2023-12-28T03:24:50.685995844Z"
+generated: "2024-05-17T19:41:34.483641288Z"
