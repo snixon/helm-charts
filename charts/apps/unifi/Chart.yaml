@@ -3,7 +3,7 @@ apiVersion: v2
 appVersion: v8.1
 description: Ubiquiti Network's Unifi Controller
 name: unifi
-version: 5.1.7
+version: 5.1.8
 keywords:
   - ubiquiti
   - unifi
