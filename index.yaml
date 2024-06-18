@@ -99,6 +99,36 @@ entries:
     urls:
     - https://github.com/snixon/helm-charts/releases/download/ersatztv-0.8.1-beta/ersatztv-0.8.1-beta.tgz
     version: 0.8.1-beta
+  homebridge:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 1.5.0
+    apiVersion: v2
+    appVersion: "2024-05-02"
+    created: "2024-06-18T23:00:00.178805353Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts/
+      version: 1.5.0
+    description: A lightweight NodeJS server that emulates the iOS HomeKit API
+    digest: c768b51f7e5ed1814279a6fd372f42beb7e46c18126410fd4eebdaedd06e510f
+    home: https://github.com/snixon/helm-charts/tree/master/charts/apps/homebridge
+    icon: https://avatars0.githubusercontent.com/u/38217527?s=400&v=4?sanitize=true
+    keywords:
+    - homebridge
+    - homekit
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: snixon@gmail.com
+      name: snixon
+    name: homebridge
+    sources:
+    - https://homebridge.io/
+    - https://github.com/homebridge/docker-homebridge
+    urls:
+    - https://github.com/snixon/helm-charts/releases/download/homebridge-1.8.2/homebridge-1.8.2.tgz
+    version: 1.8.2
   tdarr:
   - annotations:
       artifacthub.io/changes: |-
@@ -364,4 +394,4 @@ entries:
     urls:
     - https://github.com/snixon/helm-charts/releases/download/unmanic-0.0.1/unmanic-0.0.1.tgz
     version: 0.0.1
-generated: "2024-05-17T19:41:34.483641288Z"
+generated: "2024-06-18T23:00:00.178824178Z"
