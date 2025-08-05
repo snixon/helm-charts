@@ -1,0 +1,105 @@
+{{- define "custom.helm.url" -}}
+https://snixon.github.io/helm-charts/
+{{- end -}}
+
+{{ template "chart.header" . }}
+
+{{ template "chart.versionBadge" . }}{{ template "chart.typeBadge" . }}{{ template "chart.appVersionBadge" . }}
+
+{{ template "chart.description" . }}
+
+{{ template "chart.sourcesSection" . }}
+
+## Chart Version
+
+This chart is currently at version `{{ .Version }}`.
+
+## Requirements
+
+{{ template "chart.kubeVersionLine" . }}
+
+## Dependencies
+
+{{ template "chart.requirementsTable" . }}
+
+## Installing the Chart
+
+Add the Helm repository:
+
+```bash
+helm repo add snixon {{ template "custom.helm.url" }}
+helm repo update
+```
+
+Then install the chart:
+
+```bash
+helm install homebridge snixon/homebridge \
+  --namespace homebridge \
+  --create-namespace \
+  -f values.yaml
+```
+
+> 💡 Replace `-f values.yaml` with your own configuration or use `--set key=value` overrides.
+
+## Upgrading the Chart
+
+Before upgrading, make sure your Helm repo is up to date:
+
+```bash
+helm repo update
+```
+
+Then upgrade the release with:
+
+```bash
+helm upgrade homebridge snixon/homebridge \
+  --namespace homebridge \
+  --create-namespace \
+  -f values.yaml
+```
+
+> 💡 To reuse your previously set values:
+
+```bash
+helm upgrade homebridge snixon/homebridge \
+  --namespace homebridge \
+  --create-namespace \
+  --reuse-values
+```
+
+## TLS Ingress with cert-manager
+
+To enable automatic TLS using cert-manager, configure the `ingress` section like this:
+
+```yaml
+ingress:
+  homebridge:
+    enabled: true
+    annotations:
+      cert-manager.io/cluster-issuer: letsencrypt-prod
+      nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    hosts:
+      - host: homebridge.local
+        paths:
+          - path: /
+            pathType: Prefix
+    tls:
+      - secretName: homebridge-tls
+        hosts:
+          - homebridge.local
+```
+
+> 🔐 Ensure your cert-manager installation has a valid `ClusterIssuer` named `letsencrypt-prod`.
+
+## Configuration
+
+This chart is built using the [`bjw-s/common`](https://github.com/bjw-s/helm-charts/tree/main/charts/library/common) Helm library chart.
+
+See also:
+
+- [values.yaml](https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/values.yaml) for supported configuration keys
+- [values.schema.json](./values.schema.json) for validation and IDE autocompletion
+- [CI test scenarios](https://github.com/bjw-s/helm-charts/tree/main/tests/common-test/ci) for usage examples
+
+{{ template "helm-docs.versionFooter" . }}
