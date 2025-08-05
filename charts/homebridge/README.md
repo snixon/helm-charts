@@ -1,6 +1,6 @@
 # homebridge
 
-![Version: 0.0.1](https://img.shields.io/badge/Version-0.0.1-informational?style=flat-square) ![AppVersion: 2025-07-25](https://img.shields.io/badge/AppVersion-2025--07--25-informational?style=flat-square)
+![Version: 0.0.2](https://img.shields.io/badge/Version-0.0.2-informational?style=flat-square) ![AppVersion: 2025-07-25](https://img.shields.io/badge/AppVersion-2025--07--25-informational?style=flat-square)
 
 A lightweight NodeJS server that emulates the iOS HomeKit API
 
@@ -12,7 +12,7 @@ A lightweight NodeJS server that emulates the iOS HomeKit API
 
 ## Chart Version
 
-This chart is currently at version `0.0.1`.
+This chart is currently at version `0.0.2`.
 
 ## Requirements
 
@@ -29,7 +29,7 @@ Kubernetes: `>=1.28.0-0`
 Add the Helm repository:
 
 ```bash
-helm repo add snixon https://snixon.github.io/home_ops/
+helm repo add snixon https://snixon.github.io/helm-charts/
 helm repo update
 ```
 
