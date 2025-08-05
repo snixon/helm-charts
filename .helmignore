@@ -1,0 +1,15 @@
+# Ignore all files in the charts directory
+charts/*
+
+# Ignore any temporary files
+*.tmp
+*.log
+
+# Ignore the README files
+README.md
+
+# Ignore the index file
+index.yaml
+
+# Ignore any hidden files
+.*

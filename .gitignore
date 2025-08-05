@@ -1,0 +1,15 @@
+# Ignore temp, editors, and local tooling
+.DS_Store
+*.swp
+*.bak
+*.tmp
+.idea/
+.vscode/
+
+# Helm artifacts
+charts/**/charts/        # extracted dependencies
+charts/**/tmpcharts/
+charts/**/Chart.lock     # optional, unless you want to lock versions
+
+# Build artifacts
+*.tgz
