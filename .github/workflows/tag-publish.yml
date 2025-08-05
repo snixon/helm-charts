@@ -71,8 +71,8 @@ jobs:
       - name: Generate Helm repo index
         run: |
           helm repo index output/ \
-            --url https://snixon.github.io/home_ops \
-            --merge https://snixon.github.io/home_ops/index.yaml || true
+            --url https://snixon.github.io/helm-charts \
+            --merge https://snixon.github.io/helm-charts/index.yaml || true
 
       - name: Publish to gh-pages
         uses: peaceiris/actions-gh-pages@v3
