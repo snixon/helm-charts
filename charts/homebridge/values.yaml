@@ -13,7 +13,7 @@ controllers:
       main:
         image:
           repository: homebridge/homebridge
-          tag:
+          tag: "2025-07-25"
           pullPolicy: IfNotPresent
         env:
           TZ: UTC
