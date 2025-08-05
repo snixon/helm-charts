@@ -11,13 +11,13 @@ entries:
               url: https://github.com/homebridge/docker-homebridge/releases/tag/2025-07-25
     apiVersion: v2
     appVersion: "2025-07-25"
-    created: "2025-08-05T20:36:14.637087172Z"
+    created: "2025-08-05T20:45:48.592151086Z"
     dependencies:
     - name: common
       repository: https://bjw-s-labs.github.io/helm-charts
       version: 4.2.0
     description: A lightweight NodeJS server that emulates the iOS HomeKit API
-    digest: f4003467038ddfa2fcdd31929ebfb72e31602f958807779d1936810608531d9a
+    digest: 6db2787452bff8f0830e57e528949ade011f14bb7cd027bffeb5a178148fbac4
     home: https://github.com/snixon/helm-charts/tree/main/charts/apps/homebridge
     icon: https://avatars0.githubusercontent.com/u/38217527?s=400&v=4?sanitize=true
     keywords:
@@ -35,4 +35,4 @@ entries:
     urls:
     - https://snixon.github.io/helm-charts/homebridge-0.0.2.tgz
     version: 0.0.2
-generated: "2025-08-05T20:36:14.632184699Z"
+generated: "2025-08-05T20:45:48.586781568Z"
