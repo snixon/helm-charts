@@ -13,7 +13,7 @@ controllers:
       main:
         image:
           repository: homebridge/homebridge
-          tag: ""
+          tag: "{{.Chart.AppVersion}}"
           pullPolicy: IfNotPresent
         env:
           TZ: UTC

@@ -1,6 +1,6 @@
 # homebridge
 
-![Version: 0.0.3](https://img.shields.io/badge/Version-0.0.3-informational?style=flat-square) ![AppVersion: 2025-07-25](https://img.shields.io/badge/AppVersion-2025--07--25-informational?style=flat-square)
+![Version: 0.0.4](https://img.shields.io/badge/Version-0.0.4-informational?style=flat-square) ![AppVersion: 2025-07-25](https://img.shields.io/badge/AppVersion-2025--07--25-informational?style=flat-square)
 
 A lightweight NodeJS server that emulates the iOS HomeKit API
 
@@ -12,7 +12,7 @@ A lightweight NodeJS server that emulates the iOS HomeKit API
 
 ## Chart Version
 
-This chart is currently at version `0.0.3`.
+This chart is currently at version `0.0.4`.
 
 ## Requirements
 
