@@ -3,12 +3,12 @@ apiVersion: v2
 appVersion: "2025-07-25"
 description: A lightweight NodeJS server that emulates the iOS HomeKit API
 name: homebridge
-version: 0.0.3  # Placeholder, will be set by GitHub Actions
+version: 0.0.4  # Placeholder, will be set by GitHub Actions
 kubeVersion: ">=1.28.0-0"
 keywords:
   - homebridge
   - homekit
-home: https://github.com/snixon/helm-charts/tree/main/charts/apps/homebridge
+home: https://github.com/snixon/helm-charts/tree/main/charts/homebridge
 icon: https://avatars0.githubusercontent.com/u/38217527?s=400&v=4?sanitize=true
 sources:
   - https://homebridge.io/
