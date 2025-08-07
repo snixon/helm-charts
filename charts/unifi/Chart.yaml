@@ -1,0 +1,28 @@
+---
+apiVersion: v2
+appVersion: "v9.3.43"
+description: Ubiquiti Network's Unifi Controller
+name: unifi
+version: 0.0.1
+keywords:
+  - ubiquiti
+  - unifi
+home: https://github.com/snixon/helm-charts/tree/main/charts/unifi
+icon: https://prd-www-cdn.ubnt.com/static/favicon-152.png
+sources:
+  - https://github.com/jacobalberty/unifi-docker
+maintainers:
+  - name: snixon
+    email: snixon@gmail.com
+dependencies:
+  - name: common
+    repository: https://bjw-s-labs.github.io/helm-charts
+    version: 4.2.0
+annotations:
+  artifacthub.io/changes: |-
+    - kind: changed
+      description: |-
+        Upgraded unifi-docker version to "v9.3.43""
+      links:
+        - name: Detailed release notes
+          url: https://github.com/homebridge/docker-homebridge/releases/tag/2025-07-25
