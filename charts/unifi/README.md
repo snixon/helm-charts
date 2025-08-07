@@ -1,6 +1,6 @@
 # unifi
 
-![Version: 0.0.1](https://img.shields.io/badge/Version-0.0.1-informational?style=flat-square) ![AppVersion: v9.3.43](https://img.shields.io/badge/AppVersion-v9.3.43-informational?style=flat-square)
+![Version: 0.0.2](https://img.shields.io/badge/Version-0.0.2-informational?style=flat-square) ![AppVersion: v9.3.43](https://img.shields.io/badge/AppVersion-v9.3.43-informational?style=flat-square)
 
 Ubiquiti Network's Unifi Controller
 
@@ -10,7 +10,7 @@ Ubiquiti Network's Unifi Controller
 
 ## Chart Version
 
-This chart is currently at version `0.0.1`.
+This chart is currently at version `0.0.2`.
 
 ## Requirements
 
