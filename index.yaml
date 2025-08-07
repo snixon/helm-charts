@@ -1,38 +1,35 @@
 apiVersion: v1
 entries:
-  homebridge:
+  unifi:
   - annotations:
       artifacthub.io/changes: |-
         - kind: changed
           description: |-
-            Upgraded homebridge-docker version to "2025.07.25"
+            Upgraded unifi-docker version to "v9.3.43""
           links:
-            - name: Detailed release notes
-              url: https://github.com/homebridge/docker-homebridge/releases/tag/2025-07-25
+            - name: Version information
+              url: https://github.com/jacobalberty/unifi-docker/pull/812
     apiVersion: v2
-    appVersion: "2025-07-25"
-    created: "2025-08-07T15:08:10.331599845Z"
+    appVersion: v9.3.43
+    created: "2025-08-07T19:34:09.391964406Z"
     dependencies:
     - name: common
       repository: https://bjw-s-labs.github.io/helm-charts
       version: 4.2.0
-    description: A lightweight NodeJS server that emulates the iOS HomeKit API
-    digest: bd09bc4d98a11d4b63028b9e6bed10f0689723accb0589cd0643337116e30d54
-    home: https://github.com/snixon/helm-charts/tree/main/charts/apps/homebridge
-    icon: https://avatars0.githubusercontent.com/u/38217527?s=400&v=4?sanitize=true
+    description: Ubiquiti Network's Unifi Controller
+    digest: f0c4e330cfba8002152dd4dc93583726bce032d5cddc2e1a338978be12245dca
+    home: https://github.com/snixon/helm-charts/tree/main/charts/unifi
+    icon: https://prd-www-cdn.ubnt.com/static/favicon-152.png
     keywords:
-    - homebridge
-    - homekit
-    kubeVersion: '>=1.28.0-0'
+    - ubiquiti
+    - unifi
     maintainers:
     - email: snixon@gmail.com
       name: snixon
-    name: homebridge
+    name: unifi
     sources:
-    - https://homebridge.io/
-    - https://github.com/homebridge/homebridge
-    - https://github.com/homebridge/docker-homebridge
+    - https://github.com/jacobalberty/unifi-docker
     urls:
-    - https://snixon.github.io/helm-charts/homebridge-0.0.3.tgz
-    version: 0.0.3
-generated: "2025-08-07T15:08:10.325481732Z"
+    - https://snixon.github.io/helm-charts/unifi-0.0.2.tgz
+    version: 0.0.2
+generated: "2025-08-07T19:34:09.386426798Z"
