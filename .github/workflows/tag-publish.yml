@@ -9,6 +9,8 @@ jobs:
   lint:
     name: Lint Helm Chart
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Checkout repo
