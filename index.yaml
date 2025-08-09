@@ -11,13 +11,13 @@ entries:
               url: https://github.com/jacobalberty/unifi-docker/pull/812
     apiVersion: v2
     appVersion: v9.3.43
-    created: "2025-08-07T19:34:09.391964406Z"
+    created: "2025-08-09T17:11:05.729814448Z"
     dependencies:
     - name: common
       repository: https://bjw-s-labs.github.io/helm-charts
       version: 4.2.0
     description: Ubiquiti Network's Unifi Controller
-    digest: f0c4e330cfba8002152dd4dc93583726bce032d5cddc2e1a338978be12245dca
+    digest: b70204d94051fc1a56430b80c05c60d8f8479a6b708dd97dad4ef604ed091b0a
     home: https://github.com/snixon/helm-charts/tree/main/charts/unifi
     icon: https://prd-www-cdn.ubnt.com/static/favicon-152.png
     keywords:
@@ -30,6 +30,6 @@ entries:
     sources:
     - https://github.com/jacobalberty/unifi-docker
     urls:
-    - https://snixon.github.io/helm-charts/unifi-0.0.2.tgz
-    version: 0.0.2
-generated: "2025-08-07T19:34:09.386426798Z"
+    - https://snixon.github.io/helm-charts/unifi-0.0.3.tgz
+    version: 0.0.3
+generated: "2025-08-09T17:11:05.724663746Z"
