@@ -14,8 +14,6 @@ controllers:
   # Configure the main controller
   main:
     type: deployment
-    annotations:
-      reloader.stakater.com/auto: "true"
     containers:
       # Configure the main application container
       main:
@@ -74,7 +72,7 @@ service:
       # -- Configure Captive Portal HTTPS port
       # @default -- See values.yaml
       portal-https:
-        enabled: true
+        enabled: false
         port: 8843
         protocol: HTTPS
       # -- Configure Speedtest port (used for UniFi mobile speed test)
